@@ -28,8 +28,8 @@ group :development do
  #wpp suggestion try
 
 class Item
-  include ActiveModel::Validations
-  include ActiveModel::Conversion
+  # include ActiveModel::Validations
+  # include ActiveModel::Conversion
   extend ActiveModel::Naming
 
   attr_accessor :name, :email, :content
