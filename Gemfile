@@ -25,9 +25,9 @@ group :development do
  # gem 'quiet_assets' (not compatible with rails 5 atm)
  gem 'rails_layout'
 
- #wpp suggestion try
+ # wpp suggestion try
 
-class Tableless < ActiveRecord::Base
+ # class Tableless < ActiveRecord::Base
 
   def self.columns
     @columns ||= []
